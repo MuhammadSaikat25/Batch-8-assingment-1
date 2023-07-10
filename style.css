@@ -1,6 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+/* =========== Header section ========== */
+.header {
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .text {
+  font-size: 80px;
+  margin-bottom: 32px;
+  font-weight: 800;
 }
 
+.header .img {
+  width: 400px;
+  height: 700px;
+  padding-top: 10px;
+}
+
+.header .btn {
+  margin-top: 32px;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  border: none;
+  color: white;
+}
