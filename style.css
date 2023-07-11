@@ -33,12 +33,16 @@
 
 /* ========== Main Section ========== */
 
+/* ==========common section========== */
 .main,
-.Delivery-support {
+.Delivery-support,
+.Instagram {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
+/* ==========common section========== */
+
 .main .header-text {
   margin-top: 174px;
   text-align: center;
@@ -108,21 +112,47 @@
 
 .Deal-Sale button {
   border-radius: 8px;
-  background: #E55473;
-  padding:20px 43px;
+  background: #e55473;
+  padding: 20px 43px;
   color: white;
   border: none;
-  margin-left: 180px;
+  margin-left: 200px;
 }
-.Deal-Sale h1{
+.Deal-Sale h1 {
   text-align: center;
 }
-.Deal-Sale p{
+.Deal-Sale p {
   margin-top: 24px;
   margin-bottom: 24px;
   text-align: center;
 }
-.Deal-Sale img{
+.Deal-Sale img {
   width: 318px;
   height: 420px;
+}
+
+/* ========== Instagram section ========== */
+
+
+.Instagram{
+  margin-top: 128px;
+}
+
+.Instagram p,h1{
+  text-align: center;
+}
+.Instagram p{
+  margin-bottom: 48px;
+  margin-top: 10px;
+}
+
+.Instagram img{
+  width: 320px;
+  height: 396px;
+}
+.Instagram-Img{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  gap: 20px;
 }
