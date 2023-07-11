@@ -112,11 +112,15 @@
   padding:20px 43px;
   color: white;
   border: none;
+  margin-left: 180px;
 }
-
+.Deal-Sale h1{
+  text-align: center;
+}
 .Deal-Sale p{
   margin-top: 24px;
   margin-bottom: 24px;
+  text-align: center;
 }
 .Deal-Sale img{
   width: 318px;
