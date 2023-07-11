@@ -30,3 +30,47 @@
   border: none;
   color: white;
 }
+
+/* ========== Main Section ========== */
+
+.main,
+.Delivery-support {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main .header-text {
+  margin-top: 174px;
+  text-align: center;
+}
+.main h1 {
+  font-size: 40px;
+}
+.main p {
+  margin-top: 24px;
+}
+.main .img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 48px;
+  gap: 40px;
+}
+.main img {
+  padding: 50px;
+  background: rgba(71, 125, 17, 0.15);
+  border: none;
+  border-radius: 500px 500px 0 0;
+  width: 315px;
+  height: 470px;
+}
+.div {
+  display: flex;
+  justify-content: space-between;
+}
+.div p {
+  margin-bottom: 60px;
+  text-decoration: underline;
+  margin-bottom: 100px;
+}
+
+/* ========== Delivery - Support section ========== */
