@@ -36,7 +36,7 @@
 /* ==========common section========== */
 .main,
 .Delivery-support,
-.Instagram {
+.Instagram,.Deals {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -133,26 +133,70 @@
 
 /* ========== Instagram section ========== */
 
-
-.Instagram{
+.Instagram {
   margin-top: 128px;
 }
 
-.Instagram p,h1{
+.Instagram p,
+h1 {
   text-align: center;
 }
-.Instagram p{
+.Instagram p {
   margin-bottom: 48px;
   margin-top: 10px;
 }
 
-.Instagram img{
+.Instagram img {
   width: 320px;
   height: 396px;
 }
-.Instagram-Img{
+.Instagram-Img {
   display: flex;
   justify-content: space-around;
   flex-wrap: nowrap;
   gap: 20px;
+}
+
+/* ==========Get The Latest Deals section========== */
+
+.Deals{
+  margin-top: 128px;
+  background-image: url('/image/Rectangle\ 9.png');
+  border-radius: 8px;
+  width: 1440px;
+  height: 450px;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+}
+.Deals .text{
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Deals p{
+  margin-top: 10px;
+}
+.Deals h1{
+  font-size: 40px;
+}
+.Deals .Input{
+  text-align: center;
+}
+.Input input{
+  padding: 10px;
+  width: 700px;
+  height: 30px;
+  border-radius: 2px;
+  border: none;
+}
+
+.Input button{
+  border-radius: 2px;
+  background: #e55473;
+  padding: 16px;
+  color: white;
+  border: none;
+  margin-left: 16px;
 }
