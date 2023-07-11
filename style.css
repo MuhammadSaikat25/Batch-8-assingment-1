@@ -36,7 +36,8 @@
 /* ==========common section========== */
 .main,
 .Delivery-support,
-.Instagram,.Deals {
+.Instagram,
+.Deals,.Extra{
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -159,32 +160,32 @@ h1 {
 
 /* ==========Get The Latest Deals section========== */
 
-.Deals{
+.Deals {
   margin-top: 128px;
-  background-image: url('/image/Rectangle\ 9.png');
+  background-image: url("/image/Rectangle\ 9.png");
   border-radius: 8px;
   width: 1440px;
   height: 450px;
   margin-bottom: 50px;
   background-repeat: no-repeat;
 }
-.Deals .text{
+.Deals .text {
   height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.Deals p{
+.Deals p {
   margin-top: 10px;
 }
-.Deals h1{
+.Deals h1 {
   font-size: 40px;
 }
-.Deals .Input{
+.Deals .Input {
   text-align: center;
 }
-.Input input{
+.Input input {
   padding: 10px;
   width: 700px;
   height: 30px;
@@ -192,11 +193,36 @@ h1 {
   border: none;
 }
 
-.Input button{
+.Input button {
   border-radius: 2px;
   background: #e55473;
   padding: 16px;
   color: white;
   border: none;
   margin-left: 16px;
+}
+/* ========== Extra section ========== */
+
+.customerImg {
+  width: 200px;
+  height: 200px;
+}
+.Extra{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.customer{
+  background: rgba(229, 84, 115, 0.05);
+}
+.text{
+  text-align: left;
+  margin-bottom: 8px;
+}
+.Extra-H1{
+  text-decoration: line-through;
+}
+.span{
+  color: purple;
 }
