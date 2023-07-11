@@ -74,3 +74,24 @@
 }
 
 /* ========== Delivery - Support section ========== */
+
+.Delivery-support .deliveryImg {
+  width: 88px;
+  height: 88px;
+}
+.Delivery-support {
+  background: rgba(39, 39, 39, 0.05);
+  border-radius: 8px;
+  padding: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.Delivery-support p {
+  margin-top: 24px;
+  font-size: 24px;
+}
+.Delivery-support img {
+  margin-left: 100px;
+}
