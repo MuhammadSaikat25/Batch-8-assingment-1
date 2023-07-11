@@ -95,3 +95,30 @@
 .Delivery-support img {
   margin-left: 100px;
 }
+
+/* ==========Hot Deal ! Sale section========== */
+.Deal-Sale {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+}
+
+.Deal-Sale button {
+  border-radius: 8px;
+  background: #E55473;
+  padding:20px 43px;
+  color: white;
+  border: none;
+}
+
+.Deal-Sale p{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.Deal-Sale img{
+  width: 318px;
+  height: 420px;
+}
